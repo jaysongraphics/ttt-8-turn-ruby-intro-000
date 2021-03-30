@@ -8,5 +8,5 @@ def turn(board)
    counter
 end
 def display_board(board)
-   turn_count(board) % 2 == 0 ? "X" : "O"
+   turn(board) % 2 == 0 ? "X" : "O"
 end
