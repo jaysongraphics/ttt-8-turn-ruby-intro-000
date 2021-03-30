@@ -17,4 +17,3 @@ move(board, index)
 
 valid_move?(board, index)
 position_taken?(board, index)
-input_to_index(user_input)
