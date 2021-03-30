@@ -2,10 +2,10 @@ def turn(board)
   puts "please enter 1-9"
 end
 
-def display_board(board)
-  puts " #{board[0]} | #{board[1]} | #{board[2]} "
-  puts separator = "-----------"
-  puts " #{board[3]} | #{board[4]} | #{board[5]} "
-  puts separator = "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
+def position_taken?(board, index)
+   if (board[index] == " ") || (board[index] == "") || (board[index] == nil)
+      return false
+   else
+      return true
+   end
 end
